@@ -37,7 +37,7 @@ If the script does not execute properly, you can copy and paste the following co
       throw new System.ComponentModel.Win32Exception(Marshal.GetLastWin32Error());
     }
   }
-'@)::EnableScreenReader($false)
+'@)::EnableScreenReader($false);
 ```
 
 
